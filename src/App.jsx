@@ -7,6 +7,7 @@ import {Header} from "./landingSections/Header.jsx";
 import {Hero} from "./landingSections/Hero.jsx";
 import {Process} from "./landingSections/Process.jsx";
 import {Contact} from "./landingSections/Contact.jsx";
+import {Footer} from "./landingSections/Footer.jsx";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -21,6 +22,7 @@ const App = () => {
                 <Portfolio />
                 <Process />
                 <Contact />
+                <Footer />
             </main>
         </div>
     )
